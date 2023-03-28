@@ -1,0 +1,71 @@
+/* DOCUMENTO CSS */
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: sans-serif;
+	background-color: #ff3e33;
+	background-image: url(imagens/valorantlogo.jpg);
+	background-size: cover;
+}
+header {
+	background-color: #ff3e3377;
+	height: 100px;
+	padding-top: 25px;
+	color: white;
+	text-align: center;
+	
+
+}
+main {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-wrap: wrap;
+	align-content: center;
+
+
+}
+.box {
+	width: 250px;
+	min-height: 400px;
+	background-color: #ff3e3377;
+	border-radius: 10px;
+	padding: 10px;
+	color: #f4efec;
+	text-align: center;
+	margin: 10px;
+
+}
+.box:hover{
+	box-shadow: 6px 6px 10px #a4a4a4;
+	background-color: red;
+}
+
+.box h2{
+	margin: 0 0 10px 0;
+		padding: 0;
+}
+.box figure {
+	width: 250px;
+	height: 200px;
+	background-color: #e6e6e6;
+	margin: 0;
+	padding: 0;
+
+}
+.box p { font-size: 17px;
+
+}
+footer {
+	background-color: #ff3e3377;
+	height: 50px;
+	padding-top: 10px;
+	color: white;
+	text-align: center;
+}
+footer p {margin: 0;padding: 0;
+}
